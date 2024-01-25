@@ -205,7 +205,7 @@ const SingleChat = ({ size }) => {
 
     useEffect(() => {
         myPeer = new Peer(uuidv4(), {
-            host: '/',
+            host: 'https://talk-a-tive-fws4.onrender.com',
             port: 3001,
         });
         myPeer.on('open', (id) => {
