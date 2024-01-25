@@ -25,8 +25,5 @@
     "peerjs": "^1.5.2",
     "socket.io": "^4.7.4",
     "uuid": "^9.0.1"
-  },
-  "devDependencies": {
-    "npm-run-all": "^4.1.5"
   }
 }
