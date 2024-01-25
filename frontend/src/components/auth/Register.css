@@ -1,0 +1,31 @@
+.register input{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.register label{
+    font-weight: bold;
+    margin: 0;
+}
+.register button{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: none;
+    margin-top: 10px;
+}
+.register .myform{
+    /* margin-top: 10px; */
+}
+.register .signup{
+    border-radius: 2px;
+    background-color: #8DC6F2;
+    outline: blue;
+    cursor: pointer;
+
+}
+.register .signup:focus{
+    border: 2px solid blue;
+}
