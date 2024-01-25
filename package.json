@@ -8,7 +8,7 @@
     "start-watch": "nodemon backend/server.js",
     "start-peerjs": "peerjs --port 3001",
     "server": "nodemon backend/server.js",
-    "build": "npm install --legacy-peer-deps && npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "hongsonnguyen",
   "license": "ISC",
