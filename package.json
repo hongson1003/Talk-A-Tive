@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm-run-all --parallel start-watch start-peerjs",
     "start-watch": "nodemon backend/server.js",
-    "start-peerjs": "bin/peerjs --port 3001",
+    "start-peerjs": "peerjs --port 3001",
     "server": "nodemon backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
