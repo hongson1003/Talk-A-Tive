@@ -208,7 +208,7 @@ const SingleChat = ({ size }) => {
             // host: 'https://talk-a-tive-fws4.onrender.com',
             host: '/',
             port: 3001,
-            path: 'peerjs'
+            path: '/myapp'
         });
         myPeer.on('open', (id) => {
             socket.emit('join-call', selectChat._id, id);
