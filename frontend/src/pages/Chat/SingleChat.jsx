@@ -19,8 +19,8 @@ import { Peer } from "peerjs";
 import { v4 as uuidv4 } from 'uuid';
 let myPeer = null;
 let videoCallWindow = null;
-// const ENDPOINT = 'http://localhost:8080'
-const ENDPOINT = 'https://talk-a-tive-fws4.onrender.com'
+const ENDPOINT = 'http://localhost:8080'
+// const ENDPOINT = 'https://talk-a-tive-fws4.onrender.com'
 var socket, selectChatCompare;
 
 
@@ -205,7 +205,8 @@ const SingleChat = ({ size }) => {
 
     useEffect(() => {
         myPeer = new Peer(uuidv4(), {
-            host: 'https://talk-a-tive-fws4.onrender.com',
+            // host: 'https://talk-a-tive-fws4.onrender.com',
+            host: '/',
             port: 3001,
         });
         myPeer.on('open', (id) => {
